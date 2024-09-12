@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    padding: 50px 0;
+    
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+.one {
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+/* .two {
+    margin-top: 3px;
+    margin-bottom: 15px;
+} */
+.title{
+    color: rgba(13, 13, 13, 0.995);
+}
+
+
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background: #555;
+    color: #fff;
+    padding: 13px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.project-card {
+    background:  #fff;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: calc(33% - 40px); /* 3 per row */
+    vertical-align: top;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        width: calc(50% - 40px); /* 2 per row */
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .project-card {
+        width: 100%; /* 1 per row */
+    }
+}
